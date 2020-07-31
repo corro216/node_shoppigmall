@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/corro216/node_shoppigmall/issues"
   },
-  "homepage": "https://github.com/corro216/node_shoppigmall#readme"
+  "homepage": "https://github.com/corro216/node_shoppigmall#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
