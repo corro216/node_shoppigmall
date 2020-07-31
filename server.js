@@ -4,10 +4,11 @@ const express = require('express'); //express 상수화
 const app = express();
  
 const productRoute = require('./routes/product');
-
+const orderRoute = require('./routes/order');
 
 
 app.use('/product', productRoute);
+app.use('/order', orderRoute);
 
 
 

@@ -1,7 +1,6 @@
 
 // 1.
 const express = require('express');
-const { response } = require('express');
 const router = express.Router();
 
 
