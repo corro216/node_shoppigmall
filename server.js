@@ -3,14 +3,11 @@
 const express = require('express'); //express 상수화
 const app = express();
  
+const productRoute = require('./routes/product');
 
 
-// request 와 response 의 테스팅
-app.use((req, res) => {
-    res.json({
-        message : 'fighting'
-    });
-});
+
+app.use('/product', productRoute);
 
 
 
